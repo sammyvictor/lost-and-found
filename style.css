@@ -506,19 +506,19 @@ h3{
     margin-top: 300px;
     justify-content: center;
 }
-form{
+.container form{
      background: #ffffff;
      width: 1000px;
      height: 60px;
      display: flex;
      border-radius: 30px;
 }
-form input{
+.container form input{
     flex: 1;
     border: none;
     outline: none;
 }
-form button{
+.container form button{
     background: #fff4dd;
     padding: 10px 50px;
     border: none;
@@ -528,7 +528,7 @@ form button{
     cursor: pointer;
     border-radius: 30px;
 }
-form .fa-search{
+.container form .fa-search{
     align-self: center;
     padding: 10px 20px;
     color: #000000;
